@@ -1,0 +1,21 @@
+{
+  "name": "unmute-whatsapp-reader",
+  "version": "1.0.0",
+  "description": "Joins WhatsApp groups from invite links and forwards their messages to Supabase",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alt0727/unmute-whatsapp-reader.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.118.0",
+    "baileys": "^7.0.0-rc14",
+    "pino": "^10.4.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
